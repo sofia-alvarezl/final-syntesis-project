@@ -4,11 +4,11 @@ html {
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-image: url("../images/yu.jpg");
 }
 
 header h1 {
-  background-color: #364552;
+  background-color: #479e92;
   color: white;
   padding: 3rem 2rem;
   font-size: 3rem;
@@ -17,8 +17,9 @@ header h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
-  width: 95%;
+  font-size: 0.75rem;
+  width: 65%;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -26,6 +27,8 @@ h2 {
 h3 {
   font-size: 2rem;
   width: 95%;
+  color: rgb(46, 76, 50);
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }

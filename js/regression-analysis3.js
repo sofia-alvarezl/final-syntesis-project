@@ -4,7 +4,7 @@ function linearRegression(values_x, values_y) {
   var sum_xy = 0;
   var sum_xx = 0;
   var count = 0;
-  var x = 0;
+  var x = 6;
   var y = 0;
   var values_length = values_x.length;
   if (values_length !== values_y.length) {
@@ -38,7 +38,7 @@ function linearRegression(values_x, values_y) {
 }
 
 //For kWh vs Month
-const months = ["December", "January", "February", "March", "April"];
+const months = [1, 2, 3, 4, 5];
 const kwhs = [858, 792, 594, 660, 726];
 var l = linearRegression(months, kwhs);
 
